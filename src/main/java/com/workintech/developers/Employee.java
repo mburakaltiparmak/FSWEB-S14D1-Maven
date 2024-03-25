@@ -1,16 +1,16 @@
 package com.workintech.developers;
 
 public class Employee {
-    private String id;
+    private int id;
     private String name;
     private double salary;
-    public Employee(String id,String name,double salary){
+    public Employee(int id,String name,double salary){
         setId(id);
         setName(name);
         setSalary(salary);
     }
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
@@ -22,7 +22,7 @@ public class Employee {
         return name;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

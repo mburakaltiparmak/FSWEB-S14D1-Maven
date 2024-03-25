@@ -35,6 +35,7 @@ public class MainTest {
         cylinder = new Cylinder(2,2);
         rectangle = new Rectangle(1,2);
         cuboid = new Cuboid(1, 2, 3);
+
         employee = new Employee(1, "Jane Doe", 20000);
         hrManager = new HRManager(1, "John Doe", 120000);
         juniorDeveloper = new JuniorDeveloper(1, "Junior Doe", 45000);

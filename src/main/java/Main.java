@@ -1,5 +1,6 @@
 import com.workintech.cylinder.Circle;
 import com.workintech.cylinder.Cylinder;
+import com.workintech.developers.*;
 import com.workintech.pool.Cuboid;
 import com.workintech.pool.Rectangle;
 
@@ -38,5 +39,10 @@ public class Main {
         System.out.println("cuboid.height= " + cuboid.getHeight());
 
         System.out.println("cuboid.volume= " + cuboid.getVolume());
+        Employee employee = new Employee(1, "Jane Doe", 20000);
+        HRManager hrManager = new HRManager(1, "John Doe", 120000);
+        JuniorDeveloper juniorDeveloper = new JuniorDeveloper(1, "Junior Doe", 45000);
+        MidDeveloper midDeveloper = new MidDeveloper(1, "Mid Doe", 60000);
+        SeniorDeveloper seniorDeveloper = new SeniorDeveloper(1, "Senior Doe", 100000);
     }
 }
